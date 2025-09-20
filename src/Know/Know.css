@@ -1,0 +1,25 @@
+body{
+    background: #ffffff;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    text-align: center;
+
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    background-color: #0c9547;
+}
+.fb{
+    margin-left: 1300px;
+    text-align: -moz-right;
+
+}
+.x{
+    margin-left: 1400px;
+    text-align: -moz-right;
+}
+.instagram{
+    margin-left: 1200px;
+    text-align: -moz-right;
+}

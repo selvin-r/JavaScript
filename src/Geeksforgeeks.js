@@ -60,3 +60,39 @@ class Solution1 {
 
 let b = new Solution1();
 console.log(b.Meeting());
+
+
+// 1. Write a Program to reverse a string in JavaScript.==============================================
+
+function reverseString(str)
+{
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("selvin"));
+
+
+// 2. Write a Program to check whether a string is a palindrome string.================================
+
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+console.log(isPalindrome("GFG"));
+
+// 3. Find the largest number in an array in JavaScript.====================================================
+
+function findLargest(arr)  {
+
+  let largest = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+
+      largest = arr[i];
+    }
+  }
+  return largest;
+}
+
+console.log(findLargest([99, 5, 3, 100, 1]));
