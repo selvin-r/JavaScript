@@ -99,3 +99,12 @@ let obj44 ={year : 2002};
 
 let obj33 = { ...obj11, ...obj22 ,...obj44 };
 console.log(obj33);
+
+
+// 8. Object Length=========================================================
+
+
+let o = { name: "Sourav", age: 23 ,year : 2002};
+console.log(Object.keys(o).length);
+
+let s =Math.ceil();
