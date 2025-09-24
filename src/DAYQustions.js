@@ -108,4 +108,5 @@ function removeChars(s1, s2) {
 
 let s1 = "expErience";
 let s2 = "En";
-console.log(removeChars(s1, s2));
+console.log("Remove" +removeChars(s1, s2));
+
