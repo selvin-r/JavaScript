@@ -25,10 +25,17 @@ for (let fruit of fruits) {
     console.log(fruit);
 }
 
- // ForEach Looping----------------------------------------------
+ // 6 ForEach Looping----------------------------------------------
 
 const nums = [1, 2, 3];
 
 nums.forEach(function (n) {
     console.log(n * 2);
 });
+
+const arr =[1, 2, 3];
+
+for (const arrKey in arr) {
+  console.log(arr[arrKey]);
+
+}

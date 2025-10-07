@@ -53,60 +53,60 @@ let s = new Solution();
 s.Remov();
 // console.log(s.Remov());
 
-
-// 55 Qustion (22-09-2025) Palindrom
-
-function isPalindrome(word) {
-  let i = 0;
-  let j = word.length - 1;
-  while (i < j) {
-    if (word[i] !== word[j]) {
-      return false;
-    }
-    i++;
-    j--;
-  }
-  return true;
-}
-
-function printNonPalindromeWords(s) {
-  const words = s.split(" ");
-  let result = "";
-  for (const word of words) {
-    if (!isPalindrome(word)) {
-      result += word;
-    }
-  }
-  console.log(result);
-}
-
-printNonPalindromeWords("he know malayalam");
-
-
-// 56 Qustions (23-09-2025) Remove String
-
-function removeChars(s1, s2) {
-  let result = "";
-  let lookup = {};
-
-
-  for (let i = 0; i < s2.length; i++) {
-    let ch = s2[i];
-    lookup[ch] = true;
-  }
-
-
-  for (let i = 0; i < s1.length; i++) {
-    let ch = s1[i];
-    if (!lookup[ch]) {
-      result += ch;
-    }
-  }
-
-  return result;
-}
-
-let s1 = "expErience";
-let s2 = "En";
-console.log("Remove" +removeChars(s1, s2));
-
+//
+// // 55 Qustion (22-09-2025) Palindrom
+//
+// function isPalindrome(word) {
+//   let i = 0;
+//   let j = word.length - 1;
+//   while (i < j) {
+//     if (word[i] !== word[j]) {
+//       return false;
+//     }
+//     i++;
+//     j--;
+//   }
+//   return true;
+// }
+//
+// function printNonPalindromeWords(s) {
+//   const words = s.split(" ");
+//   let result = "";
+//   for (const word of words) {
+//     if (!isPalindrome(word)) {
+//       result += word;
+//     }
+//   }
+//   console.log(result);
+// }
+//
+// printNonPalindromeWords("he know malayalam");
+//
+//
+// // 56 Qustions (23-09-2025) Remove String
+//
+// function removeChars(s1, s2) {
+//   let result = "";
+//   let lookup = {};
+//
+//
+//   for (let i = 0; i < s2.length; i++) {
+//     let ch = s2[i];
+//     lookup[ch] = true;
+//   }
+//
+//
+//   for (let i = 0; i < s1.length; i++) {
+//     let ch = s1[i];
+//     if (!lookup[ch]) {
+//       result += ch;
+//     }
+//   }
+//
+//   return result;
+// }
+//
+// let s1 = "expErience";
+// let s2 = "En";
+// console.log("Remove" +removeChars(s1, s2));
+//
