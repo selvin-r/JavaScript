@@ -79,7 +79,7 @@ function isPalindrome(str) {
   return str === reversed;
 }
 
-console.log(isPalindrome("GFG"));
+console.log(isPalindrome(5000));
 
 // 3. Find the largest number in an array in JavaScript.====================================================
 
